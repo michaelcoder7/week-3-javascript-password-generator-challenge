@@ -75,6 +75,8 @@ function generatePassword() {
 
   }
 
+// Passsword returned after being generated  
+
   return (password)
 }
 
