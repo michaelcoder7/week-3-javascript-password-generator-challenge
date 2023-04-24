@@ -18,6 +18,16 @@ function generatePassword () {
   const lowerCase = "abcdefghijklmnopqrstuvwxyz"
 
 
+  //Initialize Variables 
+  var passwordLength = 0;
+  var passwordLowerCase = false;
+  var passwordUpperCase = false;
+  var passwordNumeric = false;
+  var passwordSpecial = false;
+
+
+
+
 
   return ("serul;okopl[")
 }
