@@ -43,4 +43,8 @@ A loop for the password generation was also added inorder to generate the passwo
 
 ## Screenshot of password generator web application
 
+<img width="1163" alt="password-generator-screenshot" src="https://user-images.githubusercontent.com/128432461/234093254-1bd16783-0402-4328-80a6-d39d4ee13781.png">
+
 ## Link to deployed Function
+
+https://michaelcoder7.github.io/week-3-javascript-password-generator-challenge/
