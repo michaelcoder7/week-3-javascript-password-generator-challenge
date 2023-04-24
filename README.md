@@ -40,6 +40,7 @@ The password variable and master array were also added to the code
 
 A loop for the password generation was also added inorder to generate the password, provided the user's choices meet the conditions set by the conditional statements which were made for the character choice options, which in turn returs the generated password to the 'generatePassword' function
 
+
 ## Screenshot of password generator web application
 
 ## Link to deployed Function
