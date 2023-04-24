@@ -26,8 +26,24 @@ function generatePassword () {
   var passwordSpecial = false;
 
 
+  passwordLength = window.prompt ("How many characters would you like your password to contain?");
+  if ( passwordLength < 8 || passwordLength > 128) {
+      window.alert("password must be between 8 and 128 characters");
+      return;
+  }
 
+  passwordLowerCase = windows.confirm("Click OK to confirm including lowercase characters")
+  passwordUpperCase = windows.confirm("Click OK to confirm including uppercase characters")
+  passwordNumeric = windows.confirm("Click OK to confirm including numeric characters")
+  passwordSpecial = windows.confirm("Click OK to confirm including special characters")
 
+  // To make sure one character type is selected
+  if (passwordLowerCase === false && passwordUpperCase === false && passwordNumeric === false && passwordSpecial === false) {
+      window.alert("You must select atleast one character type");
+      return;
+  }
+
+  var MainPassword = "";
 
   return ("serul;okopl[")
 }
