@@ -27,4 +27,19 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
-## 
+
+## Additions made to the JavaScript Code
+
+Constant variables were added to define all the various character types which could be selected to generate our password
+
+The Prompt codes were added with conditional statements as required to generate the required prompts for the password generation 
+
+Conditional statements were also added to make sure that atleast one character type was chosen
+
+The password variable and master array were also added to the code
+
+A loop for the password generation was also added inorder to generate the password, provided the user's choices meet the conditions set by the conditional statements which were made for the character choice options, which in turn returs the generated password to the 'generatePassword' function
+
+## Screenshot of password generator web application
+
+## Link to deployed Function
